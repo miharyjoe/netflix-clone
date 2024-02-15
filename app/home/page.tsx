@@ -1,7 +1,7 @@
 const HomePage = () => {
   return (
     <div className="m-5">
-      <h1>Welcome to the netflix clone project</h1>
+      <h1>Hello authenticated user</h1>
     </div>
   );
 };
