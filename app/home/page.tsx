@@ -1,7 +1,10 @@
+import { NavBar } from "../components/NavBar";
+
 const HomePage = () => {
   return (
     <div className="m-5">
-      <h1>Welcome to the netflix clone project</h1>
+      <NavBar />
+      <h1>Hello authenticated user</h1>
     </div>
   );
 };
