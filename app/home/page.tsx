@@ -1,7 +1,11 @@
-import { NavBar } from "../components/NavBar";
+import { MovieVideo } from "../components/MovieVideo";
 
 const HomePage = () => {
-  return <h1>Hello authenticated user</h1>;
+  return (
+    <div className="p-5 lg:p-0">
+      <MovieVideo />
+    </div>
+  );
 };
 
 export default HomePage;
